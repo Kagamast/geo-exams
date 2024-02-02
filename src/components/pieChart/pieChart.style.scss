@@ -1,0 +1,24 @@
+@import '../../index.scss';
+
+
+.pie-chart-wrap{
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 14rem;
+    width: 14rem;
+    border-radius: 100%;
+    
+    .pie-chart-inside{
+        height: 9rem;
+        width: 9rem;
+        border-radius: 100%;
+        background-color: $background;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 3rem;
+        font-weight: bold;
+    }
+}

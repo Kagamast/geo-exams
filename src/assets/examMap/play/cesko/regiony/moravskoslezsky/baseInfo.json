@@ -1,0 +1,2054 @@
+{
+    "backgroundMapWidth": 659,
+    "location_types": [
+        "Města",
+        "Turistické zajímavosti",
+        "Pohoří a vrcholy",
+        "Elektrárny, přehrady a vodní plochy",
+        "Hraniční přechody",
+        "Lázeňská města"
+    ],
+    "locations": [
+        {
+            "name": "Ostrava",
+            "cords": [
+                {
+                    "x": 397,
+                    "y": 272
+                }
+            ],
+            "mysterious_number": 1,
+            "click_range": 10,
+            "location_type": 1,
+            "difficulty": 1
+        },
+        {
+            "name": "Brunt\u00e1l",
+            "cords": [
+                {
+                    "x": 159,
+                    "y": 220
+                }
+            ],
+            "mysterious_number": 1,
+            "click_range": 10,
+            "location_type": 1,
+            "difficulty": 1
+        },
+        {
+            "name": "Opava",
+            "cords": [
+                {
+                    "x": 290,
+                    "y": 241
+                }
+            ],
+            "mysterious_number": 1,
+            "click_range": 10,
+            "location_type": 1,
+            "difficulty": 1
+        },
+        {
+            "name": "Krnov",
+            "cords": [
+                {
+                    "x": 226,
+                    "y": 173
+                }
+            ],
+            "mysterious_number": 1,
+            "click_range": 10,
+            "location_type": 1,
+            "difficulty": 1
+        },
+        {
+            "name": "Nov\u00fd Ji\u010d\u00edn",
+            "cords": [
+                {
+                    "x": 325,
+                    "y": 395
+                }
+            ],
+            "mysterious_number": 1,
+            "click_range": 10,
+            "location_type": 1,
+            "difficulty": 1
+        },
+        {
+            "name": "Kop\u0159ivnice",
+            "cords": [
+                {
+                    "x": 365,
+                    "y": 391
+                }
+            ],
+            "mysterious_number": 1,
+            "click_range": 10,
+            "location_type": 1,
+            "difficulty": 1
+        },
+        {
+            "name": "Fr\u00fddek-M\u00edstek",
+            "cords": [
+                {
+                    "x": 422,
+                    "y": 350
+                }
+            ],
+            "mysterious_number": 1,
+            "click_range": 10,
+            "location_type": 1,
+            "difficulty": 1
+        },
+        {
+            "name": "T\u0159inec",
+            "cords": [
+                {
+                    "x": 517,
+                    "y": 346
+                }
+            ],
+            "mysterious_number": 1,
+            "click_range": 10,
+            "location_type": 1,
+            "difficulty": 1
+        },
+        {
+            "name": "\u010cesk\u00fd T\u011b\u0161\u00edn",
+            "cords": [
+                {
+                    "x": 502,
+                    "y": 319
+                }
+            ],
+            "mysterious_number": 1,
+            "click_range": 10,
+            "location_type": 1,
+            "difficulty": 1
+        },
+        {
+            "name": "Karvin\u00e1",
+            "cords": [
+                {
+                    "x": 480,
+                    "y": 271
+                }
+            ],
+            "mysterious_number": 1,
+            "click_range": 10,
+            "location_type": 1,
+            "difficulty": 1
+        },
+        {
+            "name": "Hav\u00ed\u0159ov",
+            "cords": [
+                {
+                    "x": 452,
+                    "y": 308
+                }
+            ],
+            "mysterious_number": 1,
+            "click_range": 10,
+            "location_type": 1,
+            "difficulty": 1
+        },
+        {
+            "name": "Bohum\u00edn",
+            "cords": [
+                {
+                    "x": 423,
+                    "y": 249
+                }
+            ],
+            "mysterious_number": 1,
+            "click_range": 10,
+            "location_type": 1,
+            "difficulty": 1
+        },
+        {
+            "name": "Jablunkov",
+            "cords": [
+                {
+                    "x": 550,
+                    "y": 394
+                }
+            ],
+            "mysterious_number": 1,
+            "click_range": 10,
+            "location_type": 1,
+            "difficulty": 1
+        },
+        {
+            "name": "Mosty u Jablunkova",
+            "cords": [
+                {
+                    "x": 547,
+                    "y": 419
+                }
+            ],
+            "mysterious_number": 1,
+            "click_range": 10,
+            "location_type": 1,
+            "difficulty": 1
+        },
+        {
+            "name": "Stud\u00e9nka",
+            "cords": [
+                {
+                    "x": 335,
+                    "y": 341
+                }
+            ],
+            "mysterious_number": 1,
+            "click_range": 10,
+            "location_type": 1,
+            "difficulty": 1
+        },
+        {
+            "name": "Mo\u0161nov",
+            "cords": [
+                {
+                    "x": 357,
+                    "y": 352
+                }
+            ],
+            "mysterious_number": 1,
+            "click_range": 10,
+            "location_type": 1,
+            "difficulty": 1
+        },
+        {
+            "name": "Fren\u0161t\u00e1t p.Radho\u0161t\u011bm",
+            "cords": [
+                {
+                    "x": 385,
+                    "y": 422
+                }
+            ],
+            "mysterious_number": 1,
+            "click_range": 10,
+            "location_type": 1,
+            "difficulty": 1
+        },
+        {
+            "name": "Orlov\u00e1",
+            "cords": [
+                {
+                    "x": 444,
+                    "y": 275
+                }
+            ],
+            "mysterious_number": 1,
+            "click_range": 10,
+            "location_type": 1,
+            "difficulty": 1
+        },
+        {
+            "name": "Fr\u00fddlant n.Ostravic\u00ed",
+            "cords": [
+                {
+                    "x": 426,
+                    "y": 392
+                }
+            ],
+            "mysterious_number": 1,
+            "click_range": 10,
+            "location_type": 1,
+            "difficulty": 2
+        },
+        {
+            "name": "Star\u00e9 Hamry",
+            "cords": [
+                {
+                    "x": 459,
+                    "y": 448
+                }
+            ],
+            "mysterious_number": 1,
+            "click_range": 10,
+            "location_type": 1,
+            "difficulty": 3
+        },
+        {
+            "name": "Odry",
+            "cords": [
+                {
+                    "x": 268,
+                    "y": 363
+                }
+            ],
+            "mysterious_number": 1,
+            "click_range": 10,
+            "location_type": 1,
+            "difficulty": 2
+        },
+        {
+            "name": "Fulnek",
+            "cords": [
+                {
+                    "x": 285,
+                    "y": 340
+                }
+            ],
+            "mysterious_number": 1,
+            "click_range": 10,
+            "location_type": 1,
+            "difficulty": 2
+        },
+        {
+            "name": "B\u00edlovec",
+            "cords": [
+                {
+                    "x": 325,
+                    "y": 321
+                }
+            ],
+            "mysterious_number": 1,
+            "click_range": 10,
+            "location_type": 1,
+            "difficulty": 2
+        },
+        {
+            "name": "P\u0159\u00edbor",
+            "cords": [
+                {
+                    "x": 366,
+                    "y": 372
+                }
+            ],
+            "mysterious_number": 1,
+            "click_range": 10,
+            "location_type": 1,
+            "difficulty": 2
+        },
+        {
+            "name": "Kun\u00edn",
+            "cords": [
+                {
+                    "x": 320,
+                    "y": 375
+                }
+            ],
+            "mysterious_number": 1,
+            "click_range": 10,
+            "location_type": 1,
+            "difficulty": 2
+        },
+        {
+            "name": "Bru\u0161perk",
+            "cords": [
+                {
+                    "x": 387,
+                    "y": 346
+                }
+            ],
+            "mysterious_number": 1,
+            "click_range": 10,
+            "location_type": 1,
+            "difficulty": 3
+        },
+        {
+            "name": "Hlu\u010d\u00edn",
+            "cords": [
+                {
+                    "x": 375,
+                    "y": 258
+                }
+            ],
+            "mysterious_number": 1,
+            "click_range": 10,
+            "location_type": 1,
+            "difficulty": 2
+        },
+        {
+            "name": "Vratimov",
+            "cords": [
+                {
+                    "x": 410,
+                    "y": 312
+                }
+            ],
+            "mysterious_number": 1,
+            "click_range": 10,
+            "location_type": 1,
+            "difficulty": 3
+        },
+        {
+            "name": "\u0160enov",
+            "cords": [
+                {
+                    "x": 428,
+                    "y": 301
+                }
+            ],
+            "mysterious_number": 1,
+            "click_range": 10,
+            "location_type": 1,
+            "difficulty": 3
+        },
+        {
+            "name": "Pet\u0159vald",
+            "cords": [
+                {
+                    "x": 431,
+                    "y": 286
+                }
+            ],
+            "mysterious_number": 1,
+            "click_range": 10,
+            "location_type": 1,
+            "difficulty": 3
+        },
+        {
+            "name": "Rychvald",
+            "cords": [
+                {
+                    "x": 427,
+                    "y": 265
+                }
+            ],
+            "mysterious_number": 1,
+            "click_range": 10,
+            "location_type": 1,
+            "difficulty": 3
+        },
+        {
+            "name": "Doln\u00ed Bene\u0161ov",
+            "cords": [
+                {
+                    "x": 350,
+                    "y": 246
+                }
+            ],
+            "mysterious_number": 1,
+            "click_range": 10,
+            "location_type": 1,
+            "difficulty": 3
+        },
+        {
+            "name": "Krava\u0159e",
+            "cords": [
+                {
+                    "x": 323,
+                    "y": 241
+                }
+            ],
+            "mysterious_number": 1,
+            "click_range": 10,
+            "location_type": 1,
+            "difficulty": 2
+        },
+        {
+            "name": "Hradec n.Moravic\u00ed",
+            "cords": [
+                {
+                    "x": 282,
+                    "y": 273
+                }
+            ],
+            "mysterious_number": 1,
+            "click_range": 10,
+            "location_type": 1,
+            "difficulty": 3
+        },
+        {
+            "name": "V\u00edtkov",
+            "cords": [
+                {
+                    "x": 244,
+                    "y": 314
+                }
+            ],
+            "mysterious_number": 1,
+            "click_range": 10,
+            "location_type": 1,
+            "difficulty": 2
+        },
+        {
+            "name": "Budi\u0161ov n.Budi\u0161ovkou",
+            "cords": [
+                {
+                    "x": 206,
+                    "y": 308
+                }
+            ],
+            "mysterious_number": 1,
+            "click_range": 10,
+            "location_type": 1,
+            "difficulty": 3
+        },
+        {
+            "name": "Moravsk\u00fd Beroun",
+            "cords": [
+                {
+                    "x": 156,
+                    "y": 307
+                }
+            ],
+            "mysterious_number": 1,
+            "click_range": 10,
+            "location_type": 1,
+            "difficulty": 3
+        },
+        {
+            "name": "B\u0159idli\u010dn\u00e1",
+            "cords": [
+                {
+                    "x": 131,
+                    "y": 253
+                }
+            ],
+            "mysterious_number": 1,
+            "click_range": 10,
+            "location_type": 1,
+            "difficulty": 3
+        },
+        {
+            "name": "R\u00fdma\u0159ov",
+            "cords": [
+                {
+                    "x": 102,
+                    "y": 243
+                }
+            ],
+            "mysterious_number": 1,
+            "click_range": 10,
+            "location_type": 1,
+            "difficulty": 2
+        },
+        {
+            "name": "Horn\u00ed Bene\u0161ov",
+            "cords": [
+                {
+                    "x": 201,
+                    "y": 226
+                }
+            ],
+            "mysterious_number": 1,
+            "click_range": 10,
+            "location_type": 1,
+            "difficulty": 3
+        },
+        {
+            "name": "Vrbno pod Prad\u011bdem",
+            "cords": [
+                {
+                    "x": 130,
+                    "y": 161
+                }
+            ],
+            "mysterious_number": 1,
+            "click_range": 10,
+            "location_type": 1,
+            "difficulty": 1
+        },
+        {
+            "name": "Osoblaha",
+            "cords": [
+                {
+                    "x": 227,
+                    "y": 90
+                }
+            ],
+            "mysterious_number": 1,
+            "click_range": 10,
+            "location_type": 1,
+            "difficulty": 3
+        },
+        {
+            "name": "M\u011bsto Albrechtice",
+            "cords": [
+                {
+                    "x": 186,
+                    "y": 132
+                }
+            ],
+            "mysterious_number": 1,
+            "click_range": 10,
+            "location_type": 1,
+            "difficulty": 3
+        },
+        {
+            "name": "No\u0161ovice",
+            "cords": [
+                {
+                    "x": 451,
+                    "y": 365
+                }
+            ],
+            "mysterious_number": 1,
+            "click_range": 10,
+            "location_type": 1,
+            "difficulty": 3
+        },
+        {
+            "name": "Karlova Stud\u00e1nka",
+            "cords": [
+                {
+                    "x": 115,
+                    "y": 180
+                }
+            ],
+            "mysterious_number": 1,
+            "click_range": 10,
+            "location_type": 6,
+            "difficulty": 1
+        },
+        {
+            "name": "Klimkovice",
+            "cords": [
+                {
+                    "x": 359,
+                    "y": 304
+                }
+            ],
+            "mysterious_number": 1,
+            "click_range": 10,
+            "location_type": 6,
+            "difficulty": 1
+        },
+        {
+            "name": "L\u00e1zn\u011b Darkov",
+            "cords": [
+                {
+                    "x": 479,
+                    "y": 284
+                }
+            ],
+            "mysterious_number": 1,
+            "click_range": 10,
+            "location_type": 6,
+            "difficulty": 1
+        },
+        {
+            "name": "Hukvaldy",
+            "cords": [
+                {
+                    "x": 390,
+                    "y": 384
+                }
+            ],
+            "mysterious_number": 1,
+            "click_range": 10,
+            "location_type": 2,
+            "difficulty": 1
+        },
+        {
+            "name": "\u0160tramberk",
+            "cords": [
+                {
+                    "x": 355,
+                    "y": 401
+                }
+            ],
+            "mysterious_number": 1,
+            "click_range": 10,
+            "location_type": 2,
+            "difficulty": 1
+        },
+        {
+            "name": "\u0160ipka",
+            "cords": [
+                {
+                    "x": 363,
+                    "y": 408
+                }
+            ],
+            "mysterious_number": 1,
+            "click_range": 10,
+            "location_type": 2,
+            "difficulty": 1
+        },
+        {
+            "name": "Vel.\u010cantoryje",
+            "cords": [
+                {
+                    "x": 554,
+                    "y": 354
+                }
+            ],
+            "mysterious_number": 1,
+            "click_range": 10,
+            "location_type": 3,
+            "difficulty": 3
+        },
+        {
+            "name": "Lys\u00e1 hora",
+            "cords": [
+                {
+                    "x": 458,
+                    "y": 412
+                }
+            ],
+            "mysterious_number": 1,
+            "click_range": 10,
+            "location_type": 3,
+            "difficulty": 1
+        },
+        {
+            "name": "Radho\u0161\u0165",
+            "cords": [
+                {
+                    "x": 394,
+                    "y": 437
+                }
+            ],
+            "mysterious_number": 1,
+            "click_range": 10,
+            "location_type": 3,
+            "difficulty": 1
+        },
+        {
+            "name": "Slune\u010dn\u00e1",
+            "cords": [
+                {
+                    "x": 152,
+                    "y": 292
+                }
+            ],
+            "mysterious_number": 1,
+            "click_range": 10,
+            "location_type": 3,
+            "difficulty": 3
+        },
+        {
+            "name": "P\u0159\u00ed\u010dn\u00fd vrch",
+            "cords": [
+                {
+                    "x": 135,
+                    "y": 116
+                }
+            ],
+            "mysterious_number": 1,
+            "click_range": 10,
+            "location_type": 3,
+            "difficulty": 3
+        },
+        {
+            "name": "Prad\u011bd",
+            "cords": [
+                {
+                    "x": 94,
+                    "y": 175
+                }
+            ],
+            "mysterious_number": 1,
+            "click_range": 10,
+            "location_type": 3,
+            "difficulty": 1
+        },
+        {
+            "name": "Vysok\u00e1 hole",
+            "cords": [
+                {
+                    "x": 89,
+                    "y": 197
+                }
+            ],
+            "mysterious_number": 1,
+            "click_range": 10,
+            "location_type": 3,
+            "difficulty": 2
+        },
+        {
+            "name": "\u0160ance",
+            "cords": [
+                {
+                    "x": 449,
+                    "y": 431
+                },
+                {
+                    "x": 451,
+                    "y": 441
+                },
+                {
+                    "x": 451,
+                    "y": 442
+                }
+            ],
+            "mysterious_number": 1,
+            "click_range": 10,
+            "location_type": 4,
+            "difficulty": 1
+        },
+        {
+            "name": "Mor\u00e1vka v.n.",
+            "cords": [
+                {
+                    "x": 482,
+                    "y": 395
+                },
+                {
+                    "x": 484,
+                    "y": 402
+                }
+            ],
+            "mysterious_number": 1,
+            "click_range": 10,
+            "location_type": 4,
+            "difficulty": 1
+        },
+        {
+            "name": "\u017dermanice v.n.",
+            "cords": [
+                {
+                    "x": 453,
+                    "y": 331
+                },
+                {
+                    "x": 458,
+                    "y": 338
+                }
+            ],
+            "mysterious_number": 1,
+            "click_range": 10,
+            "location_type": 4,
+            "difficulty": 1
+        },
+        {
+            "name": "Ole\u0161n\u00e1 v.n.",
+            "cords": [
+                {
+                    "x": 415,
+                    "y": 364
+                }
+            ],
+            "mysterious_number": 1,
+            "click_range": 10,
+            "location_type": 4,
+            "difficulty": 3
+        },
+        {
+            "name": "Kru\u017eberk v.n.",
+            "cords": [
+                {
+                    "x": 220,
+                    "y": 292
+                },
+                {
+                    "x": 212,
+                    "y": 291
+                },
+                {
+                    "x": 210,
+                    "y": 283
+                },
+                {
+                    "x": 204,
+                    "y": 277
+                }
+            ],
+            "mysterious_number": 1,
+            "click_range": 10,
+            "location_type": 4,
+            "difficulty": 3
+        },
+        {
+            "name": "Slezsk\u00e1 Harta v.n.",
+            "cords": [
+                {
+                    "x": 191,
+                    "y": 259
+                },
+                {
+                    "x": 184,
+                    "y": 254
+                },
+                {
+                    "x": 177,
+                    "y": 257
+                },
+                {
+                    "x": 173,
+                    "y": 246
+                },
+                {
+                    "x": 164,
+                    "y": 249
+                }
+            ],
+            "mysterious_number": 1,
+            "click_range": 10,
+            "location_type": 4,
+            "difficulty": 3
+        },
+        {
+            "name": "T\u011brlicko v.n.",
+            "cords": [
+                {
+                    "x": 469,
+                    "y": 310
+                },
+                {
+                    "x": 467,
+                    "y": 319
+                }
+            ],
+            "mysterious_number": 1,
+            "click_range": 10,
+            "location_type": 4,
+            "difficulty": 1
+        },
+        {
+            "name": "Slezsk\u00e9 Beskydy",
+            "cords": [
+                {
+                    "x": 542,
+                    "y": 361
+                },
+                {
+                    "x": 552,
+                    "y": 374
+                },
+                {
+                    "x": 562,
+                    "y": 388
+                }
+            ],
+            "mysterious_number": 1,
+            "click_range": 10,
+            "location_type": 3,
+            "difficulty": 1
+        },
+        {
+            "name": "Moravskoslezsk\u00e9 Beskydy",
+            "cords": [
+                {
+                    "x": 515,
+                    "y": 405
+                },
+                {
+                    "x": 518,
+                    "y": 424
+                },
+                {
+                    "x": 536,
+                    "y": 427
+                },
+                {
+                    "x": 534,
+                    "y": 415
+                },
+                {
+                    "x": 530,
+                    "y": 392
+                },
+                {
+                    "x": 512,
+                    "y": 381
+                },
+                {
+                    "x": 497,
+                    "y": 382
+                },
+                {
+                    "x": 498,
+                    "y": 396
+                },
+                {
+                    "x": 474,
+                    "y": 409
+                },
+                {
+                    "x": 465,
+                    "y": 395
+                },
+                {
+                    "x": 447,
+                    "y": 405
+                },
+                {
+                    "x": 433,
+                    "y": 427
+                },
+                {
+                    "x": 416,
+                    "y": 422
+                },
+                {
+                    "x": 364,
+                    "y": 421
+                },
+                {
+                    "x": 348,
+                    "y": 421
+                },
+                {
+                    "x": 335,
+                    "y": 426
+                },
+                {
+                    "x": 378,
+                    "y": 433
+                },
+                {
+                    "x": 413,
+                    "y": 434
+                },
+                {
+                    "x": 433,
+                    "y": 446
+                },
+                {
+                    "x": 444,
+                    "y": 459
+                },
+                {
+                    "x": 449,
+                    "y": 475
+                },
+                {
+                    "x": 461,
+                    "y": 462
+                },
+                {
+                    "x": 469,
+                    "y": 439
+                },
+                {
+                    "x": 471,
+                    "y": 426
+                },
+                {
+                    "x": 498,
+                    "y": 415
+                }
+            ],
+            "mysterious_number": 1,
+            "click_range": 10,
+            "location_type": 3,
+            "difficulty": 1
+        },
+        {
+            "name": "Odersk\u00e9 vrchy",
+            "cords": [
+                {
+                    "x": 237,
+                    "y": 348
+                },
+                {
+                    "x": 251,
+                    "y": 359
+                },
+                {
+                    "x": 267,
+                    "y": 377
+                },
+                {
+                    "x": 285,
+                    "y": 391
+                }
+            ],
+            "mysterious_number": 1,
+            "click_range": 10,
+            "location_type": 3,
+            "difficulty": 1
+        },
+        {
+            "name": "N\u00edzk\u00fd Jesen\u00edk",
+            "cords": [
+                {
+                    "x": 90,
+                    "y": 254
+                },
+                {
+                    "x": 116,
+                    "y": 264
+                },
+                {
+                    "x": 142,
+                    "y": 269
+                },
+                {
+                    "x": 177,
+                    "y": 231
+                },
+                {
+                    "x": 170,
+                    "y": 278
+                },
+                {
+                    "x": 187,
+                    "y": 295
+                },
+                {
+                    "x": 228,
+                    "y": 306
+                },
+                {
+                    "x": 280,
+                    "y": 297
+                },
+                {
+                    "x": 301,
+                    "y": 289
+                },
+                {
+                    "x": 294,
+                    "y": 314
+                },
+                {
+                    "x": 272,
+                    "y": 312
+                },
+                {
+                    "x": 273,
+                    "y": 329
+                },
+                {
+                    "x": 252,
+                    "y": 327
+                },
+                {
+                    "x": 214,
+                    "y": 324
+                },
+                {
+                    "x": 195,
+                    "y": 315
+                },
+                {
+                    "x": 174,
+                    "y": 322
+                },
+                {
+                    "x": 175,
+                    "y": 304
+                },
+                {
+                    "x": 127,
+                    "y": 292
+                },
+                {
+                    "x": 120,
+                    "y": 277
+                },
+                {
+                    "x": 104,
+                    "y": 285
+                },
+                {
+                    "x": 83,
+                    "y": 273
+                }
+            ],
+            "mysterious_number": 1,
+            "click_range": 10,
+            "location_type": 3,
+            "difficulty": 1
+        },
+        {
+            "name": "Hrub\u00fd Jesen\u00edk",
+            "cords": [
+                {
+                    "x": 102,
+                    "y": 211
+                },
+                {
+                    "x": 88,
+                    "y": 211
+                },
+                {
+                    "x": 89,
+                    "y": 220
+                },
+                {
+                    "x": 109,
+                    "y": 225
+                },
+                {
+                    "x": 142,
+                    "y": 233
+                },
+                {
+                    "x": 130,
+                    "y": 223
+                },
+                {
+                    "x": 137,
+                    "y": 212
+                },
+                {
+                    "x": 153,
+                    "y": 199
+                },
+                {
+                    "x": 137,
+                    "y": 192
+                },
+                {
+                    "x": 131,
+                    "y": 181
+                },
+                {
+                    "x": 141,
+                    "y": 171
+                },
+                {
+                    "x": 158,
+                    "y": 160
+                },
+                {
+                    "x": 150,
+                    "y": 150
+                },
+                {
+                    "x": 159,
+                    "y": 132
+                },
+                {
+                    "x": 163,
+                    "y": 119
+                },
+                {
+                    "x": 155,
+                    "y": 109
+                },
+                {
+                    "x": 150,
+                    "y": 119
+                },
+                {
+                    "x": 136,
+                    "y": 136
+                },
+                {
+                    "x": 125,
+                    "y": 145
+                },
+                {
+                    "x": 117,
+                    "y": 135
+                },
+                {
+                    "x": 100,
+                    "y": 152
+                },
+                {
+                    "x": 112,
+                    "y": 170
+                },
+                {
+                    "x": 106,
+                    "y": 187
+                },
+                {
+                    "x": 121,
+                    "y": 200
+                }
+            ],
+            "mysterious_number": 1,
+            "click_range": 10,
+            "location_type": 3,
+            "difficulty": 1
+        },
+        {
+            "name": "Odra",
+            "cords": [
+                {
+                    "x": 182,
+                    "y": 386
+                },
+                {
+                    "x": 181,
+                    "y": 370
+                },
+                {
+                    "x": 187,
+                    "y": 357
+                },
+                {
+                    "x": 196,
+                    "y": 346
+                },
+                {
+                    "x": 204,
+                    "y": 336
+                },
+                {
+                    "x": 215,
+                    "y": 333
+                },
+                {
+                    "x": 227,
+                    "y": 335
+                },
+                {
+                    "x": 240,
+                    "y": 340
+                },
+                {
+                    "x": 251,
+                    "y": 347
+                },
+                {
+                    "x": 260,
+                    "y": 354
+                },
+                {
+                    "x": 276,
+                    "y": 372
+                },
+                {
+                    "x": 284,
+                    "y": 379
+                },
+                {
+                    "x": 299,
+                    "y": 385
+                },
+                {
+                    "x": 307,
+                    "y": 372
+                },
+                {
+                    "x": 317,
+                    "y": 363
+                },
+                {
+                    "x": 327,
+                    "y": 352
+                },
+                {
+                    "x": 339,
+                    "y": 347
+                },
+                {
+                    "x": 351,
+                    "y": 341
+                },
+                {
+                    "x": 361,
+                    "y": 333
+                },
+                {
+                    "x": 369,
+                    "y": 326
+                },
+                {
+                    "x": 375,
+                    "y": 315
+                },
+                {
+                    "x": 381,
+                    "y": 302
+                },
+                {
+                    "x": 384,
+                    "y": 287
+                },
+                {
+                    "x": 388,
+                    "y": 279
+                },
+                {
+                    "x": 407,
+                    "y": 262
+                },
+                {
+                    "x": 412,
+                    "y": 251
+                },
+                {
+                    "x": 416,
+                    "y": 240
+                },
+                {
+                    "x": 416,
+                    "y": 227
+                },
+                {
+                    "x": 411,
+                    "y": 218
+                }
+            ],
+            "mysterious_number": 1,
+            "click_range": 10,
+            "location_type": 4,
+            "difficulty": 1
+        },
+        {
+            "name": "Lubina",
+            "cords": [
+                {
+                    "x": 383,
+                    "y": 411
+                },
+                {
+                    "x": 377,
+                    "y": 399
+                },
+                {
+                    "x": 378,
+                    "y": 391
+                },
+                {
+                    "x": 372,
+                    "y": 383
+                },
+                {
+                    "x": 362,
+                    "y": 361
+                },
+                {
+                    "x": 364,
+                    "y": 341
+                },
+                {
+                    "x": 368,
+                    "y": 334
+                }
+            ],
+            "mysterious_number": 1,
+            "click_range": 10,
+            "location_type": 4,
+            "difficulty": 2
+        },
+        {
+            "name": "Ostravice",
+            "cords": [
+                {
+                    "x": 477,
+                    "y": 448
+                },
+                {
+                    "x": 471,
+                    "y": 452
+                },
+                {
+                    "x": 442,
+                    "y": 421
+                },
+                {
+                    "x": 436,
+                    "y": 411
+                },
+                {
+                    "x": 431,
+                    "y": 402
+                },
+                {
+                    "x": 429,
+                    "y": 381
+                },
+                {
+                    "x": 430,
+                    "y": 368
+                },
+                {
+                    "x": 429,
+                    "y": 360
+                },
+                {
+                    "x": 414,
+                    "y": 341
+                },
+                {
+                    "x": 407,
+                    "y": 328
+                },
+                {
+                    "x": 406,
+                    "y": 321
+                },
+                {
+                    "x": 404,
+                    "y": 303
+                },
+                {
+                    "x": 402,
+                    "y": 293
+                },
+                {
+                    "x": 403,
+                    "y": 289
+                }
+            ],
+            "mysterious_number": 1,
+            "click_range": 10,
+            "location_type": 4,
+            "difficulty": 1
+        },
+        {
+            "name": "Mor\u00e1vka",
+            "cords": [
+                {
+                    "x": 490,
+                    "y": 424
+                },
+                {
+                    "x": 486,
+                    "y": 416
+                },
+                {
+                    "x": 473,
+                    "y": 386
+                },
+                {
+                    "x": 464,
+                    "y": 380
+                },
+                {
+                    "x": 458,
+                    "y": 375
+                },
+                {
+                    "x": 443,
+                    "y": 360
+                },
+                {
+                    "x": 436,
+                    "y": 357
+                }
+            ],
+            "mysterious_number": 1,
+            "click_range": 10,
+            "location_type": 4,
+            "difficulty": 1
+        },
+        {
+            "name": "Lu\u010dina",
+            "cords": [
+                {
+                    "x": 447,
+                    "y": 319
+                },
+                {
+                    "x": 440,
+                    "y": 306
+                },
+                {
+                    "x": 419,
+                    "y": 304
+                },
+                {
+                    "x": 415,
+                    "y": 293
+                },
+                {
+                    "x": 411,
+                    "y": 288
+                }
+            ],
+            "mysterious_number": 1,
+            "click_range": 10,
+            "location_type": 4,
+            "difficulty": 3
+        },
+        {
+            "name": "Ston\u00e1vka",
+            "cords": [
+                {
+                    "x": 481,
+                    "y": 371
+                },
+                {
+                    "x": 477,
+                    "y": 359
+                },
+                {
+                    "x": 477,
+                    "y": 343
+                },
+                {
+                    "x": 473,
+                    "y": 331
+                },
+                {
+                    "x": 477,
+                    "y": 301
+                },
+                {
+                    "x": 473,
+                    "y": 290
+                },
+                {
+                    "x": 470,
+                    "y": 279
+                }
+            ],
+            "mysterious_number": 1,
+            "click_range": 10,
+            "location_type": 4,
+            "difficulty": 2
+        },
+        {
+            "name": "Ol\u0161e",
+            "cords": [
+                {
+                    "x": 566,
+                    "y": 404
+                },
+                {
+                    "x": 554,
+                    "y": 402
+                },
+                {
+                    "x": 541,
+                    "y": 385
+                },
+                {
+                    "x": 534,
+                    "y": 374
+                },
+                {
+                    "x": 527,
+                    "y": 363
+                },
+                {
+                    "x": 523,
+                    "y": 356
+                },
+                {
+                    "x": 507,
+                    "y": 341
+                },
+                {
+                    "x": 506,
+                    "y": 333
+                },
+                {
+                    "x": 496,
+                    "y": 308
+                },
+                {
+                    "x": 492,
+                    "y": 295
+                },
+                {
+                    "x": 488,
+                    "y": 283
+                },
+                {
+                    "x": 467,
+                    "y": 269
+                },
+                {
+                    "x": 460,
+                    "y": 260
+                },
+                {
+                    "x": 458,
+                    "y": 250
+                },
+                {
+                    "x": 449,
+                    "y": 243
+                },
+                {
+                    "x": 438,
+                    "y": 236
+                },
+                {
+                    "x": 427,
+                    "y": 235
+                }
+            ],
+            "mysterious_number": 1,
+            "click_range": 10,
+            "location_type": 4,
+            "difficulty": 1
+        },
+        {
+            "name": "B\u00edlovka",
+            "cords": [
+                {
+                    "x": 294,
+                    "y": 300
+                },
+                {
+                    "x": 302,
+                    "y": 306
+                },
+                {
+                    "x": 308,
+                    "y": 312
+                },
+                {
+                    "x": 313,
+                    "y": 315
+                },
+                {
+                    "x": 334,
+                    "y": 323
+                },
+                {
+                    "x": 343,
+                    "y": 326
+                },
+                {
+                    "x": 352,
+                    "y": 331
+                }
+            ],
+            "mysterious_number": 1,
+            "click_range": 10,
+            "location_type": 4,
+            "difficulty": 3
+        },
+        {
+            "name": "Moravice",
+            "cords": [
+                {
+                    "x": 95,
+                    "y": 186
+                },
+                {
+                    "x": 100,
+                    "y": 197
+                },
+                {
+                    "x": 110,
+                    "y": 204
+                },
+                {
+                    "x": 117,
+                    "y": 217
+                },
+                {
+                    "x": 120,
+                    "y": 231
+                },
+                {
+                    "x": 126,
+                    "y": 242
+                },
+                {
+                    "x": 142,
+                    "y": 252
+                },
+                {
+                    "x": 150,
+                    "y": 252
+                },
+                {
+                    "x": 197,
+                    "y": 268
+                },
+                {
+                    "x": 230,
+                    "y": 286
+                },
+                {
+                    "x": 237,
+                    "y": 296
+                },
+                {
+                    "x": 247,
+                    "y": 297
+                },
+                {
+                    "x": 256,
+                    "y": 304
+                },
+                {
+                    "x": 264,
+                    "y": 296
+                },
+                {
+                    "x": 268,
+                    "y": 287
+                },
+                {
+                    "x": 272,
+                    "y": 281
+                },
+                {
+                    "x": 285,
+                    "y": 260
+                },
+                {
+                    "x": 293,
+                    "y": 251
+                },
+                {
+                    "x": 301,
+                    "y": 249
+                }
+            ],
+            "mysterious_number": 1,
+            "click_range": 10,
+            "location_type": 4,
+            "difficulty": 1
+        },
+        {
+            "name": "Opava",
+            "cords": [
+                {
+                    "x": 99,
+                    "y": 167
+                },
+                {
+                    "x": 108,
+                    "y": 163
+                },
+                {
+                    "x": 116,
+                    "y": 154
+                },
+                {
+                    "x": 125,
+                    "y": 154
+                },
+                {
+                    "x": 141,
+                    "y": 160
+                },
+                {
+                    "x": 151,
+                    "y": 167
+                },
+                {
+                    "x": 155,
+                    "y": 177
+                },
+                {
+                    "x": 163,
+                    "y": 187
+                },
+                {
+                    "x": 172,
+                    "y": 193
+                },
+                {
+                    "x": 180,
+                    "y": 202
+                },
+                {
+                    "x": 192,
+                    "y": 197
+                },
+                {
+                    "x": 201,
+                    "y": 186
+                },
+                {
+                    "x": 212,
+                    "y": 178
+                },
+                {
+                    "x": 238,
+                    "y": 173
+                },
+                {
+                    "x": 245,
+                    "y": 186
+                },
+                {
+                    "x": 253,
+                    "y": 199
+                },
+                {
+                    "x": 262,
+                    "y": 208
+                },
+                {
+                    "x": 270,
+                    "y": 219
+                },
+                {
+                    "x": 280,
+                    "y": 229
+                },
+                {
+                    "x": 307,
+                    "y": 245
+                },
+                {
+                    "x": 323,
+                    "y": 250
+                },
+                {
+                    "x": 333,
+                    "y": 253
+                },
+                {
+                    "x": 345,
+                    "y": 255
+                },
+                {
+                    "x": 359,
+                    "y": 255
+                },
+                {
+                    "x": 366,
+                    "y": 262
+                },
+                {
+                    "x": 375,
+                    "y": 272
+                },
+                {
+                    "x": 378,
+                    "y": 282
+                }
+            ],
+            "mysterious_number": 1,
+            "click_range": 10,
+            "location_type": 4,
+            "difficulty": 1
+        },
+        {
+            "name": "Opavice",
+            "cords": [
+                {
+                    "x": 141,
+                    "y": 127
+                },
+                {
+                    "x": 147,
+                    "y": 136
+                },
+                {
+                    "x": 155,
+                    "y": 142
+                },
+                {
+                    "x": 168,
+                    "y": 136
+                },
+                {
+                    "x": 175,
+                    "y": 131
+                },
+                {
+                    "x": 197,
+                    "y": 141
+                },
+                {
+                    "x": 204,
+                    "y": 151
+                },
+                {
+                    "x": 213,
+                    "y": 159
+                },
+                {
+                    "x": 221,
+                    "y": 164
+                }
+            ],
+            "mysterious_number": 1,
+            "click_range": 10,
+            "location_type": 4,
+            "difficulty": 1
+        },
+        {
+            "name": "Chot\u011bbuz",
+            "cords": [
+                {
+                    "x": 503,
+                    "y": 305
+                }
+            ],
+            "mysterious_number": 1,
+            "click_range": 10,
+            "location_type": 5,
+            "difficulty": 1
+        },
+        {
+            "name": "\u010cesk\u00fd T\u011b\u0161\u00edn",
+            "cords": [
+                {
+                    "x": 516,
+                    "y": 323
+                }
+            ],
+            "mysterious_number": 1,
+            "click_range": 10,
+            "location_type": 5,
+            "difficulty": 1
+        },
+        {
+            "name": "Bukovec",
+            "cords": [
+                {
+                    "x": 581,
+                    "y": 399
+                }
+            ],
+            "mysterious_number": 1,
+            "click_range": 10,
+            "location_type": 5,
+            "difficulty": 2
+        },
+        {
+            "name": "Mosty u Jablunkova",
+            "cords": [
+                {
+                    "x": 560,
+                    "y": 438
+                }
+            ],
+            "mysterious_number": 1,
+            "click_range": 10,
+            "location_type": 5,
+            "difficulty": 1
+        },
+        {
+            "name": "Karvin\u00e1 R\u00e1j",
+            "cords": [
+                {
+                    "x": 500,
+                    "y": 276
+                }
+            ],
+            "mysterious_number": 1,
+            "click_range": 10,
+            "location_type": 5,
+            "difficulty": 1
+        },
+        {
+            "name": "Z\u00e1vada",
+            "cords": [
+                {
+                    "x": 464,
+                    "y": 239
+                }
+            ],
+            "mysterious_number": 1,
+            "click_range": 10,
+            "location_type": 5,
+            "difficulty": 3
+        },
+        {
+            "name": "Bohum\u00edn",
+            "cords": [
+                {
+                    "x": 409,
+                    "y": 236
+                }
+            ],
+            "mysterious_number": 1,
+            "click_range": 10,
+            "location_type": 5,
+            "difficulty": 1
+        },
+        {
+            "name": "Sudice",
+            "cords": [
+                {
+                    "x": 349,
+                    "y": 186
+                }
+            ],
+            "mysterious_number": 1,
+            "click_range": 10,
+            "location_type": 5,
+            "difficulty": 3
+        },
+        {
+            "name": "Krnov",
+            "cords": [
+                {
+                    "x": 243,
+                    "y": 160
+                }
+            ],
+            "mysterious_number": 1,
+            "click_range": 10,
+            "location_type": 5,
+            "difficulty": 2
+        }
+    ]
+}

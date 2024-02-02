@@ -1,0 +1,33 @@
+@import '../../index.scss';
+
+.huge-button{
+    background-color: transparent;
+    border: 3px solid mix($text, transparent, 15%);
+    padding: 0.2em 1em;
+    border-radius: 1rem;
+    color: $text;
+    font-family: $font;
+    font-size: 3em;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    &:hover{
+        background-color: mix($text, transparent, 5%);
+    }
+    &.small{
+        font-size: 2em;
+    }
+    &.primary:hover{
+        background-color: $primary;
+    }
+    &.secondary:hover{
+        background-color: $secondary;
+    }
+    &.accent:hover{
+        background-color: $accent;
+    }
+    &.accent:hover, &.secondary:hover, &.primary:hover{
+        color: $background;
+    }
+
+}

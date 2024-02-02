@@ -1,0 +1,27 @@
+@import '../../index.scss';
+
+.map-point-wrapper{
+    z-index: 100;
+    position: absolute;
+    color: $blue;
+    height: 2.5rem;
+    transform: translate(-50%, -100%);
+    :not(.popping-out){
+        animation: popIn 0.3s ease 0s 1 normal forwards;
+    }
+    &.popping-out{
+        animation: popOut 0.3s ease 0s 1 normal forwards;
+    }
+    svg{
+        height: 100%;
+    }
+}
+
+@keyframes popIn {
+0%{scale: 0; rotate: -90deg;}
+100%{scale: 1; rotate: 0deg;}
+}
+@keyframes popOut {
+    0%{scale: 1; rotate: 0deg;}
+    100%{scale: 0; rotate: 90deg;}
+}

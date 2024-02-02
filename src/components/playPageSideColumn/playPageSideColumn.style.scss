@@ -1,0 +1,11 @@
+.play-page-side-info-column{
+    display: flex;
+    flex-direction: column;
+    h2{
+        margin: 1em 0em 0.5em 0em;
+        word-break: break-all;
+    }
+    h3{
+        margin: 0em;
+    }
+}

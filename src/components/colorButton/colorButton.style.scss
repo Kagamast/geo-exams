@@ -1,0 +1,46 @@
+@import '../../index.scss';
+
+.color-button{
+    background-color: transparent;
+    border: 3px solid mix($text, transparent, 15%);
+    padding: 0.2em 1em;
+    border-radius: 1rem;
+    color: $background;
+    font-family: $font;
+    font-size: 2em;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    background-color: $primary;
+    
+    
+    &.secondary{
+        background-color: $secondary;
+    }
+    &.accent{
+        background-color: $accent;
+    }
+    &.red{
+        background-color: $red;
+    }
+    &.yellow{
+        background-color: $yellow;
+    }
+    &.green{
+        background-color: $green;
+    }
+    &.blue{
+        background-color: $blue;
+    }
+    &.gray{
+        background-color: $gray;
+    }
+
+    &.clickable{
+        cursor: pointer;
+
+        &:hover{
+            border: 3px solid mix($text, transparent, 50%);
+        }
+    }
+}

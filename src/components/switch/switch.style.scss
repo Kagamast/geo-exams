@@ -1,0 +1,40 @@
+@import '../../index.scss';
+
+.switch {
+    input[type=checkbox] {
+        appearance: none;
+        height: 1.7rem;
+        width: 3rem;
+        background-color: transparent;
+        border: 3px solid mix($text, transparent, 15%);
+        position: relative;
+        border-radius: 100vmax;
+        cursor: pointer;
+    
+        &:hover{
+            border: 3px solid mix($text, transparent, 40%);
+        }
+
+        &::before {
+            content: '';
+            display: block;
+            height: 1.2rem;
+            width: 1.2rem;
+            transform: translate(-50%, -50%);
+            position: absolute;
+            top: 50%;
+            left: 0.7rem;
+            right: auto;
+            background-color: $text;
+            border-radius: 100vmax;
+            transition: left 0.1s linear;
+        }
+    
+        &:checked{
+            background-color: $blue;
+            &::before {
+                left: 2rem;
+            }
+        }
+    }
+}

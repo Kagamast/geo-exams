@@ -1,0 +1,22 @@
+@import './index.scss';
+
+
+html{
+  font-family: $font;
+  background-color: $background;
+  color: $text;
+}
+body{
+  margin: 0;
+}
+a{
+  font-family: $font;
+  color: $text;
+  text-decoration: none;
+}
+.no-margin{
+  margin: 0 !important;
+}
+.inline-content{
+  display: flex;
+}

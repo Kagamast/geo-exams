@@ -1,0 +1,24 @@
+.pageNotFoundWrapper{
+    position: absolute;
+    inset: 0;
+    background:#0000cd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .pageNotFound{
+        font-family: 'VT323', monospace;
+        font-size: 2rem;
+        width:500px;text-align:center
+        p{
+            margin:30px 0;text-align:left
+        }
+        .title{
+            background:#ccc;color:#0000cd;padding:2px 6px
+        }
+        a{
+            font-family: 'VT323', monospace;
+            color: #fff;
+        }
+    }
+}
+

@@ -1,0 +1,127 @@
+[
+    {
+        "id": "svet",
+        "displayName": "Svět",
+        "type": "container",
+        "content": [
+
+        ]
+    },
+    {
+        "id": "evropa",
+        "displayName": "Evropa",
+        "type": "container",
+        "content": [
+
+        ]
+    },
+    {
+        "id": "cesko",
+        "displayName": "Česko",
+        "type": "container",
+        "content": [
+            {
+                "id": "prumysl",
+                "displayName": "Průmysl",
+                "type": "game"
+            },
+            {
+                "id": "byvaleOkresy",
+                "displayName": "Bývalé okresy",
+                "type": "game"
+            },
+            {
+                "id": "mesta",
+                "displayName": "Města",
+                "type": "game"
+            },
+            {
+                "id": "hranicniPrechody",
+                "displayName": "Hraniční přechody",
+                "type": "game"
+            },
+            {
+                "id": "reky",
+                "displayName": "Řeky",
+                "type": "game"
+            },
+            {
+                "id": "geomorfologickeCelky",
+                "displayName": "Geomorfolgické celky",
+                "type": "game"
+            },
+            {
+                "id": "regiony",
+                "displayName": "Regiony",
+                "type": "container",
+                "content": [
+                    {
+                        "id": "stredocesky",
+                        "displayName": "Středočeský",
+                        "type": "game"
+                    },
+                    {
+                        "id": "karlovarsky",
+                        "displayName": "Karlovarský",
+                        "type": "game"
+                    },
+                    {
+                        "id": "plzensky",
+                        "displayName": "Plzeňský",
+                        "type": "game"
+                    },
+                    {
+                        "id": "jihocesky",
+                        "displayName": "Jihočeský",
+                        "type": "game"
+                    },
+                    {
+                        "id": "vysocina",
+                        "displayName": "Vysočina",
+                        "type": "game"
+                    },
+                    {
+                        "id": "pardubicky",
+                        "displayName": "Pardubický",
+                        "type": "game"
+                    },
+                    {
+                        "id": "karlovehradecky",
+                        "displayName": "Královéhradecký",
+                        "type": "game"
+                    },
+                    {
+                        "id": "liberecky",
+                        "displayName": "Liberecký",
+                        "type": "game"
+                    },
+                    {
+                        "id": "ustecky",
+                        "displayName": "Ústecký",
+                        "type": "game"
+                    },
+                    {
+                        "id": "jihomoravsky",
+                        "displayName": "Jihomoravský",
+                        "type": "game"
+                    },
+                    {
+                        "id": "olomoucky",
+                        "displayName": "Olomoucký",
+                        "type": "game"
+                    },
+                    {
+                        "id": "moravskoslezsky",
+                        "displayName": "Moravskoslezský",
+                        "type": "game"
+                    },
+                    {
+                        "id": "zlinsky",
+                        "displayName": "Zlínský",
+                        "type": "game"
+                    }
+                ]
+            }
+        ]
+    }
+]

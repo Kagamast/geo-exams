@@ -1,0 +1,32 @@
+@import '../../index.scss';
+
+@mixin thumb-styles{
+    width: 1.0rem; /* Set a specific slider handle width */
+    height: 1.0rem; /* Slider handle height */
+    background: $text; /* Green background */
+    border-radius: 100vmax;
+    cursor: pointer; /* Cursor on hover */
+}
+
+.color-slider{
+    -webkit-appearance: none;  /* Override default CSS styles */
+    appearance: none;
+    background-color: transparent;
+    border: 3px solid mix($text, transparent, 15%);
+    height: 1rem;
+    border-radius: 100vmax;
+
+    &:hover{
+        border: 3px solid mix($text, transparent, 50%);
+    }
+
+    &::-webkit-slider-thumb {
+        -webkit-appearance: none; /* Override default look */
+        appearance: none;
+        @include thumb-styles;
+    }
+    
+    &::-moz-range-thumb {
+        @include thumb-styles;
+    }
+}
