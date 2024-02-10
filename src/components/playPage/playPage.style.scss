@@ -63,6 +63,7 @@
                 border-radius: 1rem;
                 display: block; /* This removes any extra space below the image */
                 pointer-events: none;
+                background-color: mix($text, transparent, 7%);
             }
         }
     }

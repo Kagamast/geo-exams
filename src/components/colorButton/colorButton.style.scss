@@ -12,6 +12,7 @@
     text-decoration: none;
     text-align: center;
     background-color: $primary;
+    position: relative;
     
     
     &.secondary{
@@ -41,6 +42,20 @@
 
         &:hover{
             border: 3px solid mix($text, transparent, 50%);
+        }
+    }
+
+    &.has-after{
+        &::after{
+            content: '';
+            position: absolute;
+            top: -0.5rem;
+            right: -0.5rem;
+            border-radius: 100%;
+            width: 1.3rem;
+            height: 1.3rem;
+            background-color: var(--after-color);
+            border: 3px solid mix($text, transparent, 40%);
         }
     }
 }

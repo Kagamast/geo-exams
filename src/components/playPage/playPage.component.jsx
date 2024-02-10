@@ -31,7 +31,13 @@ const PlayPage = () => {
     const loadGameInfo = async () => {
         try {
             const gameJsonObjectModule = await import(`../../assets/examMap${location.pathname}/baseInfo.json`);
-            const backgroudMapImageModule = await import(`../../assets/examMap${location.pathname}/background-map.png`);
+            let backgroudMapImageModule = "error"
+            try {
+                backgroudMapImageModule = await import(`../../assets/examMap${location.pathname}/background-map.svg`);
+            } catch {
+                backgroudMapImageModule = await import(`../../assets/examMap${location.pathname}/background-map.png`);
+
+            }
             
             setCurrentGameInfo(defaultCurrentGameInfo)
             setBackgroundMapImage(backgroudMapImageModule.default);
@@ -269,9 +275,11 @@ const PlayPage = () => {
                 <PlayPageSideColumn 
                     locationName={locationsArray[0].name}
                     locationType={jsonObject.location_types[locationsArray[0].location_type - 1]}
+                    locationIndex={locationsArray[0].location_type}
                     color={currentGameInfo.accuracyColor}
                     portionFinishedPercent={Math.round(100 * (numberOfCorrect + numberOfIncorrect) / (numberOfCorrect + numberOfIncorrect + locationsArray.length))} 
-                    portionCorrectPercent={numberOfCorrect + numberOfIncorrect === 0 ? 0 : Math.round(100 * numberOfCorrect / (numberOfCorrect + numberOfIncorrect))}/>
+                    portionCorrectPercent={numberOfCorrect + numberOfIncorrect === 0 ? 0 : Math.round(100 * numberOfCorrect / (numberOfCorrect + numberOfIncorrect))}
+                    jsonObject={jsonObject}/>
             </div>
         </div>
     );

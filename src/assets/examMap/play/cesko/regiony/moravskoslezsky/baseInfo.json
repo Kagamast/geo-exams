@@ -8,6 +8,14 @@
         "Hraniční přechody",
         "Lázeňská města"
     ],
+    "location_colors": [
+        "#aeaeae",
+        "#fff3ba",
+        "#27c927",
+        "#5581ff",
+        "#ff4626",
+        "#e59cf7"
+    ],
     "locations": [
         {
             "name": "Ostrava",
