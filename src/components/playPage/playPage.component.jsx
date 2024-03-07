@@ -28,7 +28,7 @@ const PlayPage = () => {
     const location = useLocation();
     const navigate = useNavigate();
     
-    const loadGameInfo = async () => {
+    const loadGameInfo = async (starting) => {
         try {
             const gameJsonObjectModule = await import(`../../assets/examMap${location.pathname}/baseInfo.json`);
             let backgroudMapImageModule = "error"
@@ -39,11 +39,13 @@ const PlayPage = () => {
 
             }
             
-            setCurrentGameInfo(defaultCurrentGameInfo)
+            setCurrentGameInfo({...currentGameInfo, started: false})
             setBackgroundMapImage(backgroudMapImageModule.default);
             setJsonObject(gameJsonObjectModule.default);
             setFailedLocationsArray([]);
-            setAllowedLocationTypes(gameJsonObjectModule.location_types.map(() => (true)))
+            if(starting === true){
+                setAllowedLocationTypes(gameJsonObjectModule.location_types.map(() => (true)))
+            }
             setLocationsArray(gameJsonObjectModule.default.locations
                 .map(value => ({ value, sort: Math.random() }))
                 .sort((a, b) => a.sort - b.sort)
@@ -55,7 +57,7 @@ const PlayPage = () => {
     };
 
     useEffect(() => {        
-        loadGameInfo();
+        loadGameInfo(true);
     }, [location.pathname]);
 
     const updateEnabledLocations = () => {
