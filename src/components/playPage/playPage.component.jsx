@@ -28,38 +28,6 @@ const PlayPage = () => {
     const location = useLocation();
     const navigate = useNavigate();
     
-    const loadGameInfo = async (starting) => {
-        try {
-            const gameJsonObjectModule = await import(`../../assets/examMap${location.pathname}/baseInfo.json`);
-            let backgroudMapImageModule = "error"
-            try {
-                backgroudMapImageModule = await import(`../../assets/examMap${location.pathname}/background-map.svg`);
-            } catch {
-                backgroudMapImageModule = await import(`../../assets/examMap${location.pathname}/background-map.png`);
-
-            }
-            
-            setCurrentGameInfo({...currentGameInfo, started: false})
-            setBackgroundMapImage(backgroudMapImageModule.default);
-            setJsonObject(gameJsonObjectModule.default);
-            setFailedLocationsArray([]);
-            if(starting === true){
-                setAllowedLocationTypes(gameJsonObjectModule.location_types.map(() => (true)))
-            }
-            setLocationsArray(gameJsonObjectModule.default.locations
-                .map(value => ({ value, sort: Math.random() }))
-                .sort((a, b) => a.sort - b.sort)
-                .map(({ value }) => value));
-            } catch (error) {
-                console.error("Failed to load the game info", error);
-                navigate("../page-not-found");
-        }
-    };
-
-    useEffect(() => {        
-        loadGameInfo(true);
-    }, [location.pathname]);
-
     const updateEnabledLocations = () => {
         if(jsonObject){
             const newLocationsArray = jsonObject.locations
@@ -73,8 +41,47 @@ const PlayPage = () => {
     }
     useEffect(updateEnabledLocations, [allowedLocationTypes, currentGameInfo.difficulty])
     
+    const loadGameInfo = async (starting) => {
+        try {
+            const gameJsonObjectModule = await import(`../../assets/examMap${location.pathname}/baseInfo.json`);
+            let backgroudMapImageModule = "error"
+            try {
+                backgroudMapImageModule = await import(`../../assets/examMap${location.pathname}/background-map.svg`);
+            } catch {
+                backgroudMapImageModule = await import(`../../assets/examMap${location.pathname}/background-map.png`);
+
+            }
+            
+            setCurrentGameInfo({
+                ...currentGameInfo,
+                started: false,
+                numberOfCorrect: 0,
+                numberOfIncorrect: 0,
+            })
+            setBackgroundMapImage(backgroudMapImageModule.default);
+            setJsonObject(gameJsonObjectModule.default);
+            setFailedLocationsArray([]);
+            if(starting === true){
+                setAllowedLocationTypes(gameJsonObjectModule.location_types.map(() => (true)))
+            }
+            updateEnabledLocations()
+            } catch (error) {
+                console.error("Failed to load the game info", error);
+                navigate("../page-not-found");
+        }
+    };
+
+    useEffect(() => {        
+        loadGameInfo(true);
+    }, [location.pathname]);
+
     const clickOnMapHandler = (event) => {
         if(currentGameInfo.activity === "guessing"){const {offsetX, offsetY} = event.nativeEvent
+            var d=document.createElement("div");
+            d.className="clickEffect";
+            d.style.top=event.clientY+"px";d.style.left=event.clientX+"px";
+            document.body.appendChild(d);
+            d.addEventListener('animationend',function(){d.parentElement.removeChild(d);}.bind(this));
             const clickAccurate = detectIfClickWasCorrect(offsetX, offsetY)
             if(clickAccurate){
                 setCurrentGameInfo(
